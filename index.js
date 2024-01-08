@@ -11,7 +11,7 @@ let img_p = document.querySelector(".img_p");
 let info = document.querySelectorAll(".info");
 let who = document.querySelectorAll(".who");
 let arr_down = document.querySelector(".arr_down");
-let div_bars_items = document.querySelector(".div_bars_items");
+let btn_more = document.querySelector(".btn_more");
 let text_c1 = "Welcome to our website!We are thrilled to have you join our family. Feel free to reach out to us anytime. Our team is ready to assist you and listen to your inquiries and suggestions.Let' work together in integrating newcomers into our community. We believe in the importance of collaboration and that we are all one. We appreciate your contribution and assistance in achieving our shared vision.Share"
 bars.onclick = function(){
     div_bars.style.transform = "translate(0)";
@@ -47,6 +47,8 @@ function Ball_func(){
         text_Ball++
     }
 }
+
+
 
 
 
@@ -103,13 +105,9 @@ arr_down.addEventListener("click",function(){
     })
 })
 
-
-
-window.onscroll =  function(){
-setTimeout(scr,700)
-}
-
-function scr(){
-    image1.style.transform = 'translate(0)'
-    img_p.style.transform = 'translate(0)'
+btn_more.onclick = function(){
+    window.scrollTo({
+        top:1825.3333740234375,
+        behavior: "smooth",
+    })
 }

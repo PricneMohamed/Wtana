@@ -12,7 +12,7 @@ let info = document.querySelectorAll(".info");
 let who = document.querySelectorAll(".who");
 let arr_down = document.querySelector(".arr_down");
 let btn_more = document.querySelector(".btn_more");
-let text_c1 = "Welcome to our website!We are thrilled to have you join our family. Feel free to reach out to us anytime. Our team is ready to assist you and listen to your inquiries and suggestions.Let' work together in integrating newcomers into our community. We believe in the importance of collaboration and that we are all one. We appreciate your contribution and assistance in achieving our shared vision.Share"
+let text_c1 = "مرحبًا بك في موقعنا! يسعدنا انضمامك إلى عائلتنا. لا تتردد في التواصل معنا في أي وقت. فريقنا جاهز لمساعدتك والاستماع إلى استفساراتك واقتراحاتك. فلنعمل معًا على دمج الوافدين الجدد في مجتمعنا. نحن نؤمن بأهمية التعاون وأننا جميعا واحد. نحن نقدر مساهمتك ومساعدتك في تحقيق رؤيتنا المشتركة"
 bars.onclick = function(){
     div_bars.style.transform = "translate(0)";
 }
